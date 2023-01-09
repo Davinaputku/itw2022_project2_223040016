@@ -17,6 +17,7 @@ section {
 
 section h2 {
     padding: 50px;
+    text-shadow: 0 0 10px firebrick;
 }
 
 .menu .card {
@@ -34,8 +35,7 @@ section h2 {
 }
 
 .menu h5{
-    text-shadow: 0 0 10px crimson;
-    
+    text-shadow: 0 0 10px firebrick;
 }
 
 .contact .kontak h3 {
@@ -52,6 +52,11 @@ section h2 {
 
 .contact button {
     margin-top: 30px;
+}
+
+.contact .kontak a img:hover {
+    height: 80px;
+    transition: 0.5s;
 }
 
 footer p {
