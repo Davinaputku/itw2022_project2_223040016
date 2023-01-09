@@ -2,26 +2,29 @@ html {
     scroll-behavior: smooth;
 }
 
-
-.jumbotron {
-    padding-top: 6rem;
-}
-
 section {
     padding-top: 5rem;
-}
-
-section {
     margin-bottom: 60px;
 }
 
 section h2 {
-    padding-bottom: 50px;
+    padding: 50px;
+}
+
+.menu .card {
+    transition: background 0.5s, transform 0.5s;
+}
+
+.menu .card:hover {
+    transform: translateY(-15px);
+}
+
+.menu h5{
+    text-shadow: 0 0 10px palevioletred;
 }
 
 .contact p {
-    padding-bottom: 50px;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .contact button {
