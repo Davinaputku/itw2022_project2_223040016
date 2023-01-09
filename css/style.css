@@ -20,6 +20,7 @@ section h2 {
 }
 
 .menu .card {
+    border-radius: 50px;
     transition: background 0.5s, transform 0.5s;
 }
 
@@ -27,12 +28,26 @@ section h2 {
     transform: translateY(-15px);
 }
 
+.menu .card img {
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
 .menu h5{
-    text-shadow: 0 0 10px gold;
+    text-shadow: 0 0 10px crimson;
+    
+}
+
+.contact .kontak h3 {
+    padding-bottom: 30px;
+}
+
+.contact .kontak {
+    padding: 20px;
 }
 
 .contact p {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .contact button {
@@ -41,4 +56,5 @@ section h2 {
 
 footer p {
     padding-bottom: 30px;
+    font-size:20px;
 }
