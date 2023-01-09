@@ -2,8 +2,16 @@ html {
     scroll-behavior: smooth;
 }
 
+.home {
+    height: 600px;
+}
+
+.home h4 {
+    padding-top: 150px;
+}
+
 section {
-    padding-top: 5rem;
+    padding: 5rem;
     margin-bottom: 60px;
 }
 
@@ -20,7 +28,7 @@ section h2 {
 }
 
 .menu h5{
-    text-shadow: 0 0 10px palevioletred;
+    text-shadow: 0 0 10px gold;
 }
 
 .contact p {
@@ -28,6 +36,9 @@ section h2 {
 }
 
 .contact button {
-    padding: 20px 100px;
     margin-top: 30px;
+}
+
+footer p {
+    padding-bottom: 30px;
 }
