@@ -38,23 +38,23 @@ section h2 {
     text-shadow: 0 0 10px firebrick;
 }
 
-.contact .kontak h3 {
+.kontak .contact h3 {
     padding-bottom: 30px;
 }
 
-.contact .kontak {
+.kontak .contact {
     padding: 20px;
 }
 
-.contact p {
+.kontak p {
     font-size: 20px;
 }
 
-.contact button {
+.kontak button {
     margin-top: 30px;
 }
 
-.contact .kontak a img:hover {
+.kontak .contact a img:hover {
     height: 80px;
     transition: 0.5s;
 }
